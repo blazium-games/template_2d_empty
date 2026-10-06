@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="Follow" type="Node2D"]
+[node name="SheetLens" type="Camera2D" parent="."]
+position = Vector2(200, 150)
+[node name="Field" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 400, 0, 400, 240, 0, 240)
+color = Color(0.16, 0.18, 0.22, 1)
